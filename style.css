@@ -1,0 +1,31 @@
+ body, html {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #map {
+            width: 100%;
+            height: 90%;
+        }
+		.placemark_layout_container { 
+            position: relative;
+            font-family: Georgia;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+        }
+		/* Круглый макет метки */
+        .circle_layout {
+            background-color: white;
+            position: absolute;
+            left: -9px;
+            top: -9px;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #225D9C;
+            color: #225D9C;
+            line-height: 15px;
+            /* Это CSS свойство не будет работать в Internet Explorer 8 */
+            border-radius: 50px;
+        }
